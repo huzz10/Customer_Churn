@@ -15,8 +15,7 @@ An end-to-end machine learning project for predicting customer churn in a teleco
 - [Technologies Used](#technologies-used)
 - [Code Structure](#code-structure)
 - [Future Improvements](#future-improvements)
-- [Author](#author)
-- [License](#license)
+
 
 ## <a name="overview"></a>🎯 Overview
 
@@ -202,15 +201,5 @@ Potential enhancements for this project:
 - Model deployment using Flask/FastAPI
 - Real-time prediction API
 
-## <a name="author"></a>👤 Author
 
-Created as a comprehensive machine learning project demonstrating end-to-end data science workflow.
-
-## <a name="license"></a>📄 License
-
-This project is open source and available for educational purposes.
-
----
-
-**Note**: This project focuses on demonstrating a complete ML pipeline. For production use, additional considerations like model validation, deployment, and monitoring would be necessary.
 
