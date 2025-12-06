@@ -18,7 +18,7 @@ An end-to-end machine learning project for predicting customer churn in a teleco
 - [Author](#author)
 - [License](#license)
 
-## 🎯 Overview
+## <a name="overview"></a>🎯 Overview
 
 This project predicts customer churn using machine learning algorithms. The pipeline includes:
 - **Data Cleaning**: Handling missing values and data type conversions
@@ -27,7 +27,7 @@ This project predicts customer churn using machine learning algorithms. The pipe
 - **Evaluation**: Comprehensive metrics including precision, recall, F1-score, and confusion matrices
 - **Visualization**: Feature importance plots and correlation matrices
 
-## ✨ Features
+## <a name="features"></a>✨ Features
 
 - **Automatic Data Processing**: Intelligently identifies categorical vs numerical columns
 - **Robust Data Cleaning**: Handles missing values and data type inconsistencies
@@ -36,7 +36,7 @@ This project predicts customer churn using machine learning algorithms. The pipe
 - **Visual Analytics**: Generates feature importance and correlation visualizations
 - **Modular Design**: Clean, well-documented, and maintainable code structure
 
-## 📊 Dataset
+## <a name="dataset"></a>📊 Dataset
 
 The dataset (`WA_Fn-UseC_-Telco-Customer-Churn.csv`) contains information about 7,043 customers with the following characteristics:
 
@@ -50,7 +50,7 @@ The dataset (`WA_Fn-UseC_-Telco-Customer-Churn.csv`) contains information about 
   - No Churn: 5,174 (73.5%)
   - Churn: 1,869 (26.5%)
 
-## 🚀 Installation
+## <a name="installation"></a>🚀 Installation
 
 ### Prerequisites
 
@@ -74,7 +74,7 @@ The required packages are:
 - seaborn >= 0.12.0
 - xgboost >= 1.7.0
 
-## 💻 Usage
+## <a name="usage"></a>💻 Usage
 
 1. Ensure the dataset file `WA_Fn-UseC_-Telco-Customer-Churn.csv` is in the project directory
 
@@ -92,7 +92,7 @@ python customer_churn_prediction.py
      - `feature_importance.png`
      - `correlation_matrix.png`
 
-## 📁 Project Structure
+## <a name="project-structure"></a>📁 Project Structure
 
 ```
 Customer Churn Prediction/
@@ -107,7 +107,7 @@ Customer Churn Prediction/
     └── correlation_matrix.png      # Correlation matrix of numerical features
 ```
 
-## 🔬 Methodology
+## <a name="methodology"></a>🔬 Methodology
 
 ### 1. Data Cleaning
 - **TotalCharges Conversion**: Converts object type to numeric (handles empty strings)
@@ -136,7 +136,7 @@ Since the dataset is imbalanced, the project uses comprehensive metrics:
 - **Accuracy**: Overall classification accuracy
 - **F1-Score**: Harmonic mean of precision and recall (for churn class)
 
-## 📈 Results
+## <a name="results"></a>📈 Results
 
 ### Model Performance Summary
 
@@ -170,7 +170,7 @@ Since the dataset is imbalanced, the project uses comprehensive metrics:
 - Recall (Churn): 0.53
 - Confusion Matrix: 905 TN, 130 FP, 177 FN, 197 TP
 
-## 🛠 Technologies Used
+## <a name="technologies-used"></a>🛠 Technologies Used
 
 - **Python 3.7+**: Programming language
 - **pandas**: Data manipulation and analysis
@@ -180,7 +180,7 @@ Since the dataset is imbalanced, the project uses comprehensive metrics:
 - **matplotlib**: Plotting and visualization
 - **seaborn**: Statistical data visualization
 
-## 📝 Code Structure
+## <a name="code-structure"></a>📝 Code Structure
 
 The script is organized into modular functions:
 
@@ -192,7 +192,7 @@ The script is organized into modular functions:
 - `plot_correlation_matrix()`: Correlation matrix visualization
 - `main()`: Main execution pipeline
 
-## 🔮 Future Improvements
+## <a name="future-improvements"></a>🔮 Future Improvements
 
 Potential enhancements for this project:
 - Hyperparameter tuning using GridSearchCV or RandomizedSearchCV
@@ -202,11 +202,11 @@ Potential enhancements for this project:
 - Model deployment using Flask/FastAPI
 - Real-time prediction API
 
-## 👤 Author
+## <a name="author"></a>👤 Author
 
 Created as a comprehensive machine learning project demonstrating end-to-end data science workflow.
 
-## 📄 License
+## <a name="license"></a>📄 License
 
 This project is open source and available for educational purposes.
 
