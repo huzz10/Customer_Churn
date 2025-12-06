@@ -134,6 +134,9 @@ Since the dataset is imbalanced, the project uses comprehensive metrics:
 - **Confusion Matrix**: True/False Positives and Negatives
 - **Accuracy**: Overall classification accuracy
 - **F1-Score**: Harmonic mean of precision and recall (for churn class)
+- <img width="2609" height="2367" alt="correlation_matrix" src="https://github.com/user-attachments/assets/16fc3a2d-c3e8-4a93-958c-a18707bf77d8" />
+
+-<img width="2969" height="2367" alt="feature_importance" src="https://github.com/user-attachments/assets/fdde17f1-ba4d-436e-9860-2190231c9a16" />
 
 ## <a name="results"></a>📈 Results
 
