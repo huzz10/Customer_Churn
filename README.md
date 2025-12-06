@@ -13,7 +13,10 @@ An end-to-end machine learning project for predicting customer churn in a teleco
 - [Methodology](#methodology)
 - [Results](#results)
 - [Technologies Used](#technologies-used)
+- [Code Structure](#code-structure)
+- [Future Improvements](#future-improvements)
 - [Author](#author)
+- [License](#license)
 
 ## 🎯 Overview
 
